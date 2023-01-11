@@ -1,1 +1,51 @@
-// Ahmad aka css codes
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 56px;
+}
+
+.header__item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    a {
+        color: var(--text-color);
+        
+    }
+    a:hover{
+        color: var(--hover-color);
+    }
+}
+
+.header__btn {
+    padding: 9px 20px 13px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    border-radius: 14px;
+    border: 0;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 980px){
+    .header__list{
+        gap: 20px;
+    }
+}
+@media only screen and (max-width: 830px){
+    .header__item{
+        display: none; 
+    }
+    
+}

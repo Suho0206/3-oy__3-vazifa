@@ -1,0 +1,27 @@
+.help {
+    text-align: center;
+    color: var(--text-color);
+
+    h2 {
+        margin-top: 113px;
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    p {
+        margin-bottom: 22px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: var(--hover-color);
+    }
+}
+
+.help-btn {
+    margin: 0 auto;
+    margin-bottom: 108px;
+}
